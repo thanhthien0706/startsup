@@ -1,0 +1,13 @@
+{
+    "name": "Tittle web app",
+    "short_name": "Short name web app",
+    "lang": "en-GB",
+    "start_url": "/",
+    "display": "fullscreen",
+    "theme_color": "#00a849",
+    "icons": [
+      {
+        "src": "icon-webapp.png"
+      }
+    ]
+  }

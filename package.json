@@ -1,0 +1,48 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "SO Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "start:dev": "gulp run:dev",
+    "start:prod": "gulp run:prod"
+  },
+  "keywords": [
+    "postman",
+    "clone"
+  ],
+  "author": "Thai Tran <thaitran.softone@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "eslint": "^5.12.0",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-file-include": "^2.0.1",
+    "gulp-html-prettify": "0.0.1",
+    "gulp-htmlhint": "^2.2.1",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-jsbeautifier": "^3.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1",
+    "gulp-useref": "^3.1.6",
+    "gulp-watch": "^5.0.1",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.9.0",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "bootstrap": "^4.2.1",
+    "browser-sync": "^2.26.7",
+    "gulp-babel": "^8.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
