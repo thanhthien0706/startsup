@@ -1,0 +1,26 @@
+// ========================================== color ======================================
+$color1: #47809f;
+$color2: #c4e7fb;
+
+// ========================================== keyframes ======================================
+
+$font-size: 16;
+
+@mixin transition_slow($times) {
+    -webkit-transition: all $times ease-in-out 0s;
+    -o-transition: all $times ease-in-out 0s;
+    transition: all $times ease-in-out 0s;
+}
+
+@mixin font_size($value) {
+    font-size: $value/$font-size + rem;
+}
+
+@mixin size_edit($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin ratate($deg) {
+    transform: rotate($deg);
+}

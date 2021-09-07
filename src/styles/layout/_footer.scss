@@ -1,0 +1,121 @@
+.main_footer{
+    background-color: #E5F4FD;
+    padding: 30px 0;
+    .container{
+        .section_get_inf{
+            .row{
+                align-items: center;
+                .col-md-4{
+                    .box__logo--footer{
+                        img{
+                            @include size_edit(100% , 226.84px)
+                        }
+                    }
+                }
+
+                .col-md-8{
+                    .box__content{
+                        padding: 60px 80px 30px;
+                        border-left: 3px solid rgb(77, 135, 167);
+                        border-right: 3px solid rgb(77, 135, 167);
+                        border-top: 3px solid #4D87A7;
+                        -webkit-box-sizing: border-box;
+                        -moz-box-sizing: border-box;
+                        box-sizing: border-box;
+                        h1{
+                            color: #315A71;
+                            margin-bottom: 24px;
+                        }
+
+                        .form_get_inf{
+                            .row{
+                                align-items: center;
+                                .col-md-8{
+                                    .box_input{
+                                        input{
+                                            @include size_edit(100% ,43px);
+                                            border-top: none;
+                                            border-right: none;
+                                            border-left: none;
+                                            border-bottom: 4px solid #4D87A7;
+                                            background: none;
+                                        }
+                                    }
+                                }
+
+                                .col-md-4{
+                                    .box_submit{
+                                        input{
+                                            width: 100%;
+                                            padding: 15px 0;
+                                            border-radius: 36px;
+                                            background-color: #47809F;
+                                            color: white;
+                                            border: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+            }
+        }
+
+        .box_footer{
+            padding: 40px 0 50px;
+            .row{
+                .col-md-3{
+                    .box-content{
+                        h1{
+                            @include font_size(20);
+                            color: #377482;
+                            margin-bottom: 30px;
+                        }
+                        a{
+                            text-decoration: none;
+                           .cs_text{
+                               color: #7D91A0;
+                               line-height: 25px;
+                           }
+                           .box_item_inf--footer{
+                               display: flex;
+                               align-items: center;
+                               .box_icon--footer{
+                                   img{
+                                       margin-right: 20px;
+                                   }
+                               }
+                           }
+                        }
+                        .box--follow{
+                            width: 100%;
+                            height: 188px;
+                            background-color: #C4E7FB;
+                        }
+                    }
+                }
+            }
+        }
+
+        .box--last{
+            display: flex;
+            justify-content: space-between;
+            padding: 34px 0 0;
+            border-top: 3px solid #47809F;
+            position: relative;
+            .img_last{
+                position: absolute;
+                top: -30px;
+                left: 50%;
+                transform: translateX(-50%);
+                img{
+                    width: 100%;
+                    height: 60px;
+                }
+            }
+        }
+    }
+}
