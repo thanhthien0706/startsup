@@ -25,32 +25,11 @@ $(document).ready(function(){
         const formatNumber = number.toLocaleString();
         $('.number_parameters--1').text(formatNumber);
     });
-
-    var number2 = Number($('.number_parameters--2').text());
-    // console.log(number2);
-    animationCountUp(number2, 3000, 0, function(number){
-        const formatNumber = number.toLocaleString();
-        $('.number_parameters--2').text(formatNumber);
-    });
-
-    var number3 = Number($('.number_parameters--3').text());
-    // console.log(number3);
-    animationCountUp(number3, 3000, 0, function(number){
-        const formatNumber = number.toLocaleString();
-        $('.number_parameters--3').text(formatNumber);
-    });
-
-    var number4 = Number($('.number_parameters--4').text());
-    // console.log(number3);
-    animationCountUp(number3, 3000, 0, function(number){
-        const formatNumber = number.toLocaleString();
-        $('.number_parameters--4').text(formatNumber);
-    });
 });
 
 function animationCountUp(finalNumber, duration=5000, startNumber=0, callback ){
     let currentNumber = startNumber;
-    const interval = setInterval(updateNumber, 17);
+    // const interval = setInterval(updateNumber, 17);
 
     function updateNumber(){
         if(currentNumber >= finalNumber){

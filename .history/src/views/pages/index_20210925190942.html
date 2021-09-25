@@ -2,113 +2,15 @@
 
 <head>
   <!-- include head.html -->
-  <title>Giới Thiệu</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-
-<!-- meta social -->
-<meta name="twitter:card" content="" />
-<meta name="twitter:site" content="" />
-<meta name="twitter:creator" content="" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="" />
-<meta property="og:site_name" content="">
-<meta property="og:title" content="" />
-<meta property="og:type" content="">
-<meta property="og:url" content="" />
-
-<link rel="manifest" href="/manifest.json">
-
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="application-name" content="Short name web app">
-<meta name="apple-mobile-web-app-title" content="Short name web app">
-<meta name="theme-color" content="#00a849">
-<meta name="msapplication-navbutton-color" content="#00a849">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="msapplication-starturl" content="/">
-
-<!-- font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-
+  @@include('../parts/head.html', {
+  "title": "Giới Thiệu"
+  })
   <!-- include styles.html -->
-  <!-- boostrap -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-<!-- font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-<!-- slick -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-
-<!-- build:css(.tmp) style/style.min.css -->
-<!-- <link rel="stylesheet" type="text/css" media="screen" href="../../styles/main.scss" /> -->
-<link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-<!-- endbuild -->
+  @@include('../parts/styles.html')
 </head>
 
 <body class="wrapper">
-  <header class="main_header">
-  <div class="bg_nav">
-    <img src="images/bg/Navigation.png" alt="bg của nab">
-  </div>
-  <div class="container">
-    <div class="row row_edit_header">
-      <div class="item_logo">
-        <img src="images/logo.png" alt="">
-      </div>
-      <ul class="box_menu_ul">
-        <li class="box_menu_li"></li>
-        <li class="box_menu_li">
-          <a href="#" class="menu_link">Trang chủ</a>
-        </li>
-        <li class="box_menu_li active">
-          <a href="#" class="menu_link">Giới thiệu</a>
-        </li>
-        <li class="box_menu_li">
-          <a href="#" class="menu_link">Tin tức</a>
-        </li>
-        <li class="box_menu_li">
-          <a href="#" class="menu_link">Sản phẩm</a>
-        </li>
-        <li class="box_menu_li">
-          <a href="#" class="menu_link">Lắp đặt</a>
-        </li>
-        <li class="box_menu_li">
-          <a href="#" class="menu_link">Liên hệ</a>
-        </li>
-      </ul>
-
-      <ul class="box_item_user_ul">
-        <li class="item_user_li">
-          <a href="">
-            <img src="images/icon/cart-sharp.png" alt="" class="icon_cart">
-          </a>
-        </li>
-        <li class="item_user_li item_user_li--hover">
-          <a href="">
-            <img src="images/icon/person-circle.png" alt="" class="icon_cart">
-          </a>
-          <ul class="items_inf_user--ul">
-            <li class="item_inf_user--li">
-              <a href="#">Đăng nhập</a>
-            </li>
-            <li class="item_inf_user--li">
-              <a href="#">Đăng kí</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-
-    </div>
-  </div>
-</header>
-
+  @@include('../parts/header.html')
   <section class="section_content--index">
 
     <section class="section_1">
@@ -518,35 +420,23 @@
                   <div class="box_img">
                     <img src="images/icon/bar-chart.png" alt="">
                   </div>
-                  <p class="number_parameters number_parameters--1">3012</p>
+                  <p class="number_parameters number_parameters--1">1500</p>
                   <p class="text_parameters">Đơn Hàng</p>
                 </div>
               </div>
               <div class="col-md-3">
                 <div class="box_main_content">
-                  <div class="box_img">
-                    <img src="images/icon/sketch.png" alt="">
-                  </div>
-                  <p class="number_parameters number_parameters--2">3000</p>
-                  <p class="text_parameters">Khách hàng hài lòng</p>
+
                 </div>
               </div>
               <div class="col-md-3">
                 <div class="box_main_content">
-                  <div class="box_img">
-                    <img src="images/icon/goal.png" alt="">
-                  </div>
-                  <p class="number_parameters number_parameters--3">340</p>
-                  <p class="text_parameters">Dự án thành công</p>
+
                 </div>
               </div>
               <div class="col-md-3">
                 <div class="box_main_content">
-                  <div class="box_img">
-                    <img src="images/icon/networking.png" alt="">
-                  </div>
-                  <p class="number_parameters number_parameters--4">769</p>
-                  <p class="text_parameters">Liên kết các doanh nghiệp</p>
+
                 </div>
               </div>
             </div>
@@ -556,125 +446,10 @@
     </section>
 
   </section>
-  <footer class="main_footer">
-        <div class="container">
-
-                <section class="section_get_inf" id="">
-                        <div class="row">
-                                <div class="col-md-4">
-                                        <div class="box__logo--footer">
-                                                <img src="images/logo_footer.png" alt="logo footer">
-                                        </div>
-                                </div>
-                                <div class="col-md-8">
-                                        <div class="box__content">
-                                                <h1>Subscribe Our Newsletters</h1>
-                                                <form action="#" class="form_get_inf">
-                                                        <div class="row">
-                                                                <div class="col-md-8">
-                                                                        <div class="box_input">
-                                                                                <input type="text" placeholder="Enter Your Email">
-                                                                        </div>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                        <div class="box_submit">
-                                                                                <input type="submit" value="Subscribe Now">
-                                                                        </div>
-                                                                </div>
-                                                        </div>
-                                                </form>
-                                        </div>
-                                </div>
-                        </div>
-                </section>
-
-                <section class="box_footer">
-                        <div class="row">
-                                <div class="col-md-3">
-                                        <div class="box-content">
-                                                <h1>Chính sách</h1>
-                                                <a href=""><p class="cs_text">chính sách bảo hành</p></a>
-                                                <a href=""><p class="cs_text">chính sách  đổi trả</p></a>
-                                                <a href=""><p class="cs_text">ưu đãi</p></a>
-                                                <a href=""><p class="cs_text">phương thức thanh toán</p></a>
-                                                <a href=""><p class="cs_text">phương thức vận chuyển</p></a>
-                                        </div>
-                                </div>
-                                <div class="col-md-3">
-                                        <div class="box-content">
-                                                <h1>Sản Phẩm</h1>
-                                                <a href=""><p class="cs_text">chiếu sáng thông minh</p></a>
-                                                <a href=""><p class="cs_text">rèm cửa tự động</p></a>
-                                                <a href=""><p class="cs_text">khóa thông minh</p></a>
-                                                <a href=""><p class="cs_text">alexa</p></a>
-                                                <a href=""><p class="cs_text">an ninh tự động</p></a>
-                                        </div>
-                                </div>
-                                <div class="col-md-3">
-                                        <div class="box-content">
-                                                <h1>Liên hệ với chúng tôi</h1>
-                                                <a href=""><p class="cs_text">smart Home - Ngôi nhà của bạn là trách nhiệm của chúng tôi</p></a>
-                                                <a href="">
-                                                        <div class="box_item_inf--footer">
-                                                                <div class="box_icon--footer">
-                                                                        <img src="../../images/icon/icon_footer--1.svg" alt="">
-                                                                </div>
-                                                                <p class="cs_text">+012 (345) 6789</p>
-                                                        </div>
-                                                </a>
-                                                <a href="">
-                                                        <div class="box_item_inf--footer">
-                                                                <div class="box_icon--footer">
-                                                                        <img src="../../images/icon/icon_footer--2.svg" alt="">
-                                                                </div>
-                                                                <p class="cs_text">tauhai@vku.udn.vn</p>
-                                                        </div>
-                                                </a>
-
-                                                <a href="">
-                                                        <div class="box_item_inf--footer">
-                                                                <div class="box_icon--footer">
-                                                                        <img src="../../images/icon/icon_footer--3.svg" alt="">
-                                                                </div>
-                                                                <p class="cs_text">470 - Nam kì khởi nghĩa - ngũ hành sơn - đà nãng</p>
-                                                        </div>
-                                                </a>
-                                                
-                                        </div>
-                                </div>
-                                <div class="col-md-3">
-                                        <div class="box-content">
-                                                <h1>Follow Fanpage</h1>
-                                                <div class="box--follow">
-
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
-                </section>
-
-                <section class="box--last">
-                        <div class="img_last">
-                                <img src="images/icon/icon--last--footer.png" alt="">
-                        </div>
-                        <p>Copy@ smartHome. 2021</p>
-                        <p>All Right Reserved Design By VanTan</p>
-                </section>
-
-        </div>
-</footer>
+  @@include('../parts/footer.html')
 
   <!-- include scripts.html -->
-  <!-- boostrap -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<!-- slick -->
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-<!-- build:js script/script.min.js -->
-<script type="text/javascript" src="js/script.js"></script>
+  @@include('../parts/scripts.html')
 </body>
 
 </html>

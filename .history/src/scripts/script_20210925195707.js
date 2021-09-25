@@ -18,7 +18,11 @@ $(document).ready(function(){
         arrows: false,
         autoplay: true,
     });
-
+    var numberScroll = $(window).scrollTop();
+    var topElement = $('.box_parameter');
+    if(numberScroll == topElement.offset().top){
+        console.log("đã vào");
+    }
     var number1 = Number($('.number_parameters--1').text());
     // console.log(number1);
     animationCountUp(number1, 3000, 0, function(number){
@@ -26,32 +30,11 @@ $(document).ready(function(){
         $('.number_parameters--1').text(formatNumber);
     });
 
-    var number2 = Number($('.number_parameters--2').text());
-    // console.log(number2);
-    animationCountUp(number2, 3000, 0, function(number){
-        const formatNumber = number.toLocaleString();
-        $('.number_parameters--2').text(formatNumber);
-    });
-
-    var number3 = Number($('.number_parameters--3').text());
-    // console.log(number3);
-    animationCountUp(number3, 3000, 0, function(number){
-        const formatNumber = number.toLocaleString();
-        $('.number_parameters--3').text(formatNumber);
-    });
-
-    var number4 = Number($('.number_parameters--4').text());
-    // console.log(number3);
-    animationCountUp(number3, 3000, 0, function(number){
-        const formatNumber = number.toLocaleString();
-        $('.number_parameters--4').text(formatNumber);
-    });
 });
 
 function animationCountUp(finalNumber, duration=5000, startNumber=0, callback ){
     let currentNumber = startNumber;
     const interval = setInterval(updateNumber, 17);
-
     function updateNumber(){
         if(currentNumber >= finalNumber){
             clearInterval(interval);

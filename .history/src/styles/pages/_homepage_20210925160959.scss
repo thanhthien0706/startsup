@@ -475,7 +475,7 @@
             .box_main_content{
                 text-align: center;
                 .box_img{
-                    margin-bottom: 20px;
+                    margin-bottom: 30px;
                     img{
                         width: auto;
                         height: 60px;
@@ -486,13 +486,6 @@
                     @include font_size(40);
                     font-weight:bold;
                     color: #47809F;
-                    margin-bottom:15px;
-                }
-                .text_parameters{
-                    @include font_size(20);
-                    font-weight:300;
-                    color: #000;
-
                 }
             }
         }
