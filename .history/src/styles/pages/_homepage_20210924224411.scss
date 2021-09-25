@@ -1,0 +1,188 @@
+/**
+*================================================================================================
+*Trang index 
+*================================================================================================
+*/
+
+.section_content--index{
+    .section_1{
+        width: 100%;
+        height: 640px;
+        background-image: url(../images/bg/bg_index-1.png);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        .box_content_main{
+            padding-top: 160px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            .title{
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                @include font_size(12);
+                font-weight: bold;
+                color: #fff;
+                padding: 6px 22px;
+                background-color: #2E2E2E;
+                border-radius: 8px;
+                margin-bottom: 14px;
+            }
+            .main_title{
+                @include font_size(30);
+                font-weight: bold;
+                color: #0D87A0;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                margin-bottom:10px;
+            }
+            .description{
+                @include font_size(14);
+                color: #414141;
+                margin-bottom:43px;
+            }
+            .btn_xem-ngay{
+                padding: 20px 52px;
+                @include font_size(20);
+                color: #fff;
+                text-decoration: none;
+                background-color: #408493;
+                border-radius: 4px;
+                transition: all 0.7s ease-in-out 0s;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+
+    .section_2{
+        padding: 70px 0;
+        .box_main_st_2{
+            .box_heading{
+                text-align: center;
+                .title{
+                    @include font_size(36);
+                    font-weight: 500;
+                    color: #377482;
+                    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    margin-bottom:10px;
+                }
+                .description{
+                    @include font_size(18px);
+                    font-weight:500;
+                    color: #979696
+                }
+            }
+            .box_content{
+                padding-top: 28px;
+                .item_content-1{
+                    .box_bg_1{
+                        padding: 35px 32px;
+                        height:100%;
+                        background-image: url(../images/bg/bg_index-2.png);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        object-fit: cover;
+                        border-radius:10px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: flex-start;
+                        .logo{
+                            @include font_size(12);
+                            font-weight:bold;
+                            color: #fff;
+                            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                            background-color: #EFE844;
+                            border-radius: 8px;
+                            padding: 6px 17px;
+                            margin-bottom:16px;
+                        }
+                        .slogan{
+                            @include font_size(24);
+                            color: #fff;
+                            line-height: 1.6;
+                            margin-bottom:80px;
+                        }
+                        .box_price{
+                            @include font_size(36);
+                            font-weight:bold;
+                            margin-bottom:80px;
+                            .text{
+                                color: #fff;
+                            }
+                            .price{
+                                color: #FBFF2B;
+                            }
+                        }
+                        .btn_dangKi{
+                            padding: 20px 38px;
+                            text-decoration: none;
+                            @include font_size(20);
+                            color: #fff;
+                            background-color: #408493;
+                            border-radius: 4px;
+                            transition: all 0.7s ease-in-out 0s;
+                            &:hover {
+                                opacity: 0.9;
+                            }
+                        }
+                    }
+                    .box_show_slide_products{
+
+                        .box_main_product{
+                            width: 287px;
+                            height : 100%;
+                            border: 1px solid #8B8888;
+                            .box_img_product{
+                                height: 272px;
+                                .img_product{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                }
+                            }
+                            .box_content{
+                                height: calc(100% - 272px);
+                                padding: 14px 28px;
+                                .Category{
+                                    font-weight: 500;
+                                    @include font_size(14);
+                                    color: #cccccc;
+                                    margin-bottom:10px
+                                }
+                                .name_product{
+                                    @include font_size(16);
+                                    font-weight:500;
+                                    color: #47809F;
+                                    margin-bottom:14px;
+                                }
+                                .box_evaluate{
+                                    .start{
+                                        width: 25px;
+                                        height: 25px;
+                                        .start-1{
+                                            height: 100%;
+                                            width: 50%;
+                                            background-color: #FBFF2B;
+                                            clip-path: polygon(50% 0%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+                                        }
+                                        .start-1{
+                                            height: 100%;
+                                            width: 50%;
+                                            background-color: #FBFF2B;
+                                            clip-path: polygon(50% 0%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+                                        }
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
