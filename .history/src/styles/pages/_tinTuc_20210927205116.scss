@@ -1,0 +1,25 @@
+.link_section{
+    display: block;
+    text-decoration: none;
+}
+
+.section_content--tin_tuc{
+    padding: 50px 0;
+    .box_main_left{
+        .section_main_post{
+            .box_img_post_main{
+                margin-bottom: 14px;
+                img{
+                    width: 100%;
+                    height: 431px;
+                    object-fit: cover;
+                }
+            }
+            .box_text_title{
+                h2{
+
+                }
+            }
+        }
+    }
+}

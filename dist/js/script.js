@@ -10,6 +10,15 @@ $(document).ready(function () {
     arrows: false,
     autoplay: true
   });
+  $('.box_main_slide_new').slick({
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    adaptiveHeight: true,
+    arrows: false,
+    autoplay: true
+  });
   $('.box_show_slide_products').slick({
     dots: true,
     infinite: true,
