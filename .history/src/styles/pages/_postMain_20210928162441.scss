@@ -116,36 +116,12 @@
                     margin-bottom: 10px;
                 }
                 .form_comment{
-                    position: relative;
                     .textarea_box{
                         resize: none;
                         width: 100%;
                         background-color:#f3f5f8;
                         box-sizing: border-box;
                         padding: 20px;
-                        border-radius:5px;
-                        border: 3px solid transparent;
-                        outline: none;  
-                        &:hover {
-                            border: 3px solid #47809F;
-                        }
-                    }
-                    .btn_submit{
-                        position: absolute;
-                        bottom: 20px;
-                        right: 20px;
-                        padding: 10px 20px;
-                        background-color: #47809F;
-                        outline: none;
-                        border: none;
-                        border-radius: 36px;
-                        @include font_size(16);
-                        font-weight: bold;
-                        color: #fff;
-                        transition: 0.3s;
-                        &:hover {
-                            opacity: 0.8;
-                        }
                     }
                 }
             }

@@ -139,13 +139,6 @@
                         outline: none;
                         border: none;
                         border-radius: 36px;
-                        @include font_size(16);
-                        font-weight: bold;
-                        color: #fff;
-                        transition: 0.3s;
-                        &:hover {
-                            opacity: 0.8;
-                        }
                     }
                 }
             }
