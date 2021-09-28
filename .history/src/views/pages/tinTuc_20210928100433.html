@@ -2,113 +2,15 @@
 
 <head>
   <!-- include head.html -->
-  <title>Tin tức</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-
-<!-- meta social -->
-<meta name="twitter:card" content="" />
-<meta name="twitter:site" content="" />
-<meta name="twitter:creator" content="" />
-<meta property="og:description" content="" />
-<meta property="og:image" content="" />
-<meta property="og:site_name" content="">
-<meta property="og:title" content="" />
-<meta property="og:type" content="">
-<meta property="og:url" content="" />
-
-<link rel="manifest" href="/manifest.json">
-
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="application-name" content="Short name web app">
-<meta name="apple-mobile-web-app-title" content="Short name web app">
-<meta name="theme-color" content="#00a849">
-<meta name="msapplication-navbutton-color" content="#00a849">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="msapplication-starturl" content="/">
-
-<!-- font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-
+  @@include('../parts/head.html', {
+  "title": "Tin tức"
+  })
   <!-- include styles.html -->
-  <!-- boostrap -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-<!-- font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-<!-- slick -->
-<!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
-
-<!-- build:css(.tmp) style/style.min.css -->
-<!-- <link rel="stylesheet" type="text/css" media="screen" href="../../styles/main.scss" /> -->
-<link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-<!-- endbuild -->
+  @@include('../parts/styles.html')
 </head>
 
 <body class="wrapper">
-  <header class="main_header">
-  <div class="bg_nav">
-    <img src="images/bg/Navigation.png" alt="bg của nab">
-  </div>
-  <div class="container">
-    <div class="row row_edit_header">
-      <div class="item_logo">
-        <img src="images/logo.png" alt="">
-      </div>
-      <ul class="box_menu_ul">
-        <li class="box_menu_li"></li>
-        <li class="box_menu_li">
-          <a href="#" class="menu_link">Trang chủ</a>
-        </li>
-        <li class="box_menu_li active">
-          <a href="#" class="menu_link">Giới thiệu</a>
-        </li>
-        <li class="box_menu_li">
-          <a href="#" class="menu_link">Tin tức</a>
-        </li>
-        <li class="box_menu_li">
-          <a href="#" class="menu_link">Sản phẩm</a>
-        </li>
-        <li class="box_menu_li">
-          <a href="#" class="menu_link">Lắp đặt</a>
-        </li>
-        <li class="box_menu_li">
-          <a href="#" class="menu_link">Liên hệ</a>
-        </li>
-      </ul>
-
-      <ul class="box_item_user_ul">
-        <li class="item_user_li">
-          <a href="">
-            <img src="images/icon/cart-sharp.png" alt="" class="icon_cart">
-          </a>
-        </li>
-        <li class="item_user_li item_user_li--hover">
-          <a href="">
-            <img src="images/icon/person-circle.png" alt="" class="icon_cart">
-          </a>
-          <ul class="items_inf_user--ul">
-            <li class="item_inf_user--li">
-              <a href="#">Đăng nhập</a>
-            </li>
-            <li class="item_inf_user--li">
-              <a href="#">Đăng kí</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-
-    </div>
-  </div>
-</header>
-
+  @@include('../parts/header.html')
 
   <section class="section_content--tin_tuc">
       <div class="container_edit--page--1240">
@@ -116,7 +18,7 @@
             <div class="row">
                 <div class="col-md-7">
                     <div class="head_post--left">
-                        <a href="./postMain.html" class="link_section">
+                        <a href="#" class="link_section">
                             <section class="section_main_post">
                                 <div class="box_img_post_main">
                                     <img src="images/bg/img_posts_news.png" alt="">
@@ -319,36 +221,6 @@
                             </div>
 
                             <!-- post 6 -->
-                            <div class="box_post">
-                                <div class="box_main_layout_post">
-                                    <div class="box_heading_title">
-                                        <a href="#">
-                                            <h2>Lệnh điều khiển điều hòa bằng giọng nói với Broadlink</h2>
-                                        </a>
-                                        <p class="time_post">
-                                            POSTED ON 8 THÁNG TƯ, 2020 
-                                        </p>
-                                    </div>
-                                    <div class="item_content_post">
-                                        <div class="row">
-                                            <div class="col-md-5">
-                                                <div class="box_img--post">
-                                                    <img src="images/bg/img_post_list_6.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-7">
-                                                <div class="box_text--post">
-                                                    <p class="tex_1">Broadlink khi kết hợp với Google Home Mini hoặc Amazon Echo Dot sẽ tạo thành bộ đôi sản phẩm tuyệt vời cho những người muốn trải nghiệm smart home với chi phí tiết kiệm.</p>
-                                                    <p class="tex_2">Broadlink hiện có 2 phiên bản trung tâm điều khiển nhà thông minh là Broadlink RM Pro+ và Broadlink RM Mini 3, cả 2 khác biệt nhau một chút</p>
-                                                    <a href="#" class="btn_xemThem">Xem Thêm</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- post 7 -->
                             <div class="box_post">
                                 <div class="box_main_layout_post">
                                     <div class="box_heading_title">
@@ -680,68 +552,6 @@
 
                             </div>
 
-                            <div class="box_hot_new_footer">
-                                <p class="date_time">
-                                    Cập nhật: <span class="date">18:30, 5/9</span>
-                                </p>
-                                <a href="#" class="btn_xem_them">Xem Thêm</a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- phần danh sách sản phẩm -->
-                    <div class="box_list_product">
-                        <div class="box_heading">
-                            <h2 class="title">DANH SÁCH SẢN PHẨM</h2>
-                        </div>
-                        <div class="box_content_list_product">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="box_item_product">
-                                        <div class="box_img">
-                                            <img src="images/sanPham/bg_index-sp-st2-1.png" alt="">
-                                        </div>
-                                        <div class="box_text_main">
-                                            <p class="title">Cảm biến nhiệt độ, độ ẩm</p>
-                                            <a href="#" class="btn_xen">Xem ngay</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="box_item_product">
-                                        <div class="box_img">
-                                            <img src="images/sanPham/bg_index-sp-st2-2.png" alt="">
-                                        </div>
-                                        <div class="box_text_main">
-                                            <p class="title">Cảm biến nhiệt độ, độ ẩm</p>
-                                            <a href="#" class="btn_xen">Xem ngay</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="box_item_product">
-                                        <div class="box_img">
-                                            <img src="images/sanPham/bg_index-sp-st2-1.png" alt="">
-                                        </div>
-                                        <div class="box_text_main">
-                                            <p class="title">Cảm biến nhiệt độ, độ ẩm</p>
-                                            <a href="#" class="btn_xen">Xem ngay</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="box_item_product">
-                                        <div class="box_img">
-                                            <img src="images/sanPham/bg_index-sp-st2-2.png" alt="">
-                                        </div>
-                                        <div class="box_text_main">
-                                            <p class="title">Cảm biến nhiệt độ, độ ẩm</p>
-                                            <a href="#" class="btn_xen">Xem ngay</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
@@ -751,126 +561,10 @@
       </div>
   </section>
 
-  <footer class="main_footer">
-        <div class="container">
-
-                <section class="section_get_inf" id="">
-                        <div class="row">
-                                <div class="col-md-4">
-                                        <div class="box__logo--footer">
-                                                <img src="images/logo_footer.png" alt="logo footer">
-                                        </div>
-                                </div>
-                                <div class="col-md-8">
-                                        <div class="box__content">
-                                                <h1>Subscribe Our Newsletters</h1>
-                                                <form action="#" class="form_get_inf">
-                                                        <div class="row">
-                                                                <div class="col-md-8">
-                                                                        <div class="box_input">
-                                                                                <input type="text" placeholder="Enter Your Email">
-                                                                        </div>
-                                                                </div>
-                                                                <div class="col-md-4">
-                                                                        <div class="box_submit">
-                                                                                <input type="submit" value="Subscribe Now">
-                                                                        </div>
-                                                                </div>
-                                                        </div>
-                                                </form>
-                                        </div>
-                                </div>
-                        </div>
-                </section>
-
-                <section class="box_footer">
-                        <div class="row">
-                                <div class="col-md-3">
-                                        <div class="box-content">
-                                                <h1>Chính sách</h1>
-                                                <a href=""><p class="cs_text">chính sách bảo hành</p></a>
-                                                <a href=""><p class="cs_text">chính sách  đổi trả</p></a>
-                                                <a href=""><p class="cs_text">ưu đãi</p></a>
-                                                <a href=""><p class="cs_text">phương thức thanh toán</p></a>
-                                                <a href=""><p class="cs_text">phương thức vận chuyển</p></a>
-                                        </div>
-                                </div>
-                                <div class="col-md-3">
-                                        <div class="box-content">
-                                                <h1>Sản Phẩm</h1>
-                                                <a href=""><p class="cs_text">chiếu sáng thông minh</p></a>
-                                                <a href=""><p class="cs_text">rèm cửa tự động</p></a>
-                                                <a href=""><p class="cs_text">khóa thông minh</p></a>
-                                                <a href=""><p class="cs_text">alexa</p></a>
-                                                <a href=""><p class="cs_text">an ninh tự động</p></a>
-                                        </div>
-                                </div>
-                                <div class="col-md-3">
-                                        <div class="box-content">
-                                                <h1>Liên hệ với chúng tôi</h1>
-                                                <a href=""><p class="cs_text">smart Home - Ngôi nhà của bạn là trách nhiệm của chúng tôi</p></a>
-                                                <a href="">
-                                                        <div class="box_item_inf--footer">
-                                                                <div class="box_icon--footer">
-                                                                        <img src="../../images/icon/icon_footer--1.svg" alt="">
-                                                                </div>
-                                                                <p class="cs_text">+012 (345) 6789</p>
-                                                        </div>
-                                                </a>
-                                                <a href="">
-                                                        <div class="box_item_inf--footer">
-                                                                <div class="box_icon--footer">
-                                                                        <img src="../../images/icon/icon_footer--2.svg" alt="">
-                                                                </div>
-                                                                <p class="cs_text">tauhai@vku.udn.vn</p>
-                                                        </div>
-                                                </a>
-
-                                                <a href="">
-                                                        <div class="box_item_inf--footer">
-                                                                <div class="box_icon--footer">
-                                                                        <img src="../../images/icon/icon_footer--3.svg" alt="">
-                                                                </div>
-                                                                <p class="cs_text">470 - Nam kì khởi nghĩa - ngũ hành sơn - đà nãng</p>
-                                                        </div>
-                                                </a>
-                                                
-                                        </div>
-                                </div>
-                                <div class="col-md-3">
-                                        <div class="box-content">
-                                                <h1>Follow Fanpage</h1>
-                                                <div class="box--follow">
-
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
-                </section>
-
-                <section class="box--last">
-                        <div class="img_last">
-                                <img src="images/icon/icon--last--footer.png" alt="">
-                        </div>
-                        <p>Copy@ smartHome. 2021</p>
-                        <p>All Right Reserved Design By VanTan</p>
-                </section>
-
-        </div>
-</footer>
+  @@include('../parts/footer.html')
 
   <!-- include scripts.html -->
-  <!-- boostrap -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<!-- slick -->
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-<!-- build:js script/script.min.js -->
-<script type="text/javascript" src="js/slick.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
+  @@include('../parts/scripts.html')
 </body>
 
 </html>

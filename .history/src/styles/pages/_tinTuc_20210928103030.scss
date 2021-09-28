@@ -10,7 +10,7 @@
 }
 
 .section_content--tin_tuc{
-    padding: 50px 0 80px 0;
+    padding: 50px 0;
     a{
         display: block;
         text-decoration: none;
@@ -551,33 +551,11 @@
                     margin-bottom:30px;
                     border: 1px solid rgba(0,0,0,0.5);
                     .box_img{
-                        margin-bottom:10px;
+                        margin-bottom:10px
                         img{
                             width: 100%;
                             height: 196px;
                             object-fit: cover;
-                        }
-                    }
-                    .box_text_main{
-                        text-align: center;
-                        .title{
-                            @include font_size(18);
-                            color: #47809F;
-                            font-weight: bold;
-                            margin-bottom: 6px;
-                        }
-                        .btn_xen{
-                            width: 100%;
-                            padding: 12px 0;
-                            background-color: #47809F;
-                            text-decoration: none;
-                            @include font_size(16);
-                            font-weight: bold;
-                            color: #fff;
-                            transition: 0.3s;
-                            &:hover {
-                                opacity: 0.8;
-                            }
                         }
                     }
                 }
