@@ -79,6 +79,7 @@
                     bottom: -124px;
                     animation-name: faderighttoleft;
                     display: none;
+                    z-index: 222;
                     &::before{
                         content: "";
                         position: absolute;

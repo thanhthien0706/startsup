@@ -213,7 +213,8 @@ body {
           left: -108px;
           bottom: -124px;
           animation-name: faderighttoleft;
-          display: none; }
+          display: none;
+          z-index: 222; }
           .main_header .row_edit_header .box_item_user_ul .item_user_li .items_inf_user--ul::before {
             content: "";
             position: absolute;
